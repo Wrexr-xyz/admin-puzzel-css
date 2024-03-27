@@ -1,0 +1,211 @@
+html body {
+        overflow: hidden !important;
+        margin-top: -55px;
+    }
+
+    /* Topbar */
+    .mat-tab-link-container {
+        display: none;
+    }
+    /* Sidenav */
+    .sidenav,
+    .ng-tns-c5-0,
+    .ng-trigger,
+    .ng-trigger-menuPosition {
+        display: none;
+    }
+    /* Gridster Generalt */
+    gridster-item {
+        margin: 0 !important;
+        padding: 0 !important;
+        z-index: 1;
+        display: flex !important;
+        top: 0;
+        box-sizing: none !important;
+    }
+    /* I Kø Nu */
+    gridster-item:nth-of-type(1) {
+        position: absolute !important;
+        top: 9px !important;
+        width: 220px !important;
+        height: 220px !important;
+        overflow: hidden !important;
+        margin-: 0px !important;
+    }
+    /* Widget Title */
+    div#wallboardwrapper gridster-item:nth-of-type(1) > div > h4 {
+        position: absolute;
+        color: white;
+        margin-left: 45px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    /* Svarproecent */
+    gridster-item:nth-of-type(2) {
+        position: absolute !important;
+        top: -163px !important;
+        max-width: 225px !important;
+        overflow: hidden !important;
+        margin-bottom: -50px !important;
+        height: 220px !important;
+    }
+    /* Widget Title */
+    div#wallboardwrapper gridster-item:nth-of-type(2) > div > h4 {
+        position: absolute;
+        color: white;
+        margin-left: 15px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    /* Køtid */
+    gridster-item:nth-of-type(3) {
+        position: absolute !important;
+        top: 9px !important;
+        height: 220px !important;
+        max-width: 429px !important;
+        left: -135px !important;
+    }
+    /* Widget Title */
+    div#wallboardwrapper gridster-item:nth-of-type(3) > div > h4 {
+        position: absolute;
+        color: white;
+        margin-left: 115px;
+        font-size: 24px;
+        font-weight: bold;
+        background: rgba(78,100,202,255);
+        padding: 0px 45px 0px 45px;
+    }
+    /* Agentstatus */
+    gridster-item:nth-of-type(4) {
+        position: absolute !important;
+        top: -481px !important;
+        left: 185px !important;
+        z-index: 1 !important;
+        width: 800px !important;
+        height: 220px !important;
+    }
+    /* Widget Title */
+    div#wallboardwrapper gridster-item:nth-of-type(4) > div > h4 {
+        position: absolute;
+        color: white;
+        margin-left: 260px;
+        background: rgba(78,100,202,255);
+        padding: 0px 45px 0px 45px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    /* Agent Liste */
+    gridster-item:nth-of-type(5) {
+        top: 10px !important;
+        right: 807px !important;
+        height: auto !important;
+    }
+    /* Widget Title */
+    div#wallboardwrapper gridster-item:nth-of-type(5) > div > h4 {
+        position: absolute;
+        color: white;
+        margin-left: 45px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    /* Opkald */
+    gridster-item:nth-of-type(6) {
+        position: absolute !important;
+        top: -309px !important;
+        left: 250px !important;
+        width: 415px !important;
+        z-index: 0;
+        height: 220px !important;
+        box-sizing: none !important;
+        
+    }
+    /* Widget Title */
+    div#wallboardwrapper gridster-item:nth-of-type(6) > div > h4 {
+        position: absolute;
+        color: white;
+        margin-left: 95px;
+        font-size: 24px;
+        font-weight: bold;
+        background: rgba(78,100,202,255);
+        padding: 0px 45px 0px 45px;
+        box-sizing: none !important;
+
+    }
+    div#wallboardwrapper gridster-item > div {
+        padding: 0px !important;
+        margin: 0px !important;
+        border: none !important;
+        background: rgba(78, 100, 202, 0) !important;
+        box-sizing: none !important;
+    }
+    gridster {
+        overflow: hidden !important;
+        margin-left: -235px !important;
+        margin-top: -10px !important;
+        background: rgba(255, 255, 255, 0) !important;
+        box-sizing: none !important;
+    }
+    #gridItem6236 > div > app-widget-container > app-agents > app-table > div > table > tbody > tr {
+        background: #6e6e6e !important;
+        margin: 0 !important;
+        width: 100%!important;
+        align-items: center !important;
+        justify-content: center !important;
+        box-sizing: none !important;
+    }
+    #gridItem6236 > div > app-widget-container > app-agents > app-table > div > table > tbody > tr > td {
+        color: white;
+        font-size: 20px !important;
+        padding: 10px !important;
+    }
+    div#wallboardwrapper tr > td.mat-cell.cdk-cell.cdk-column-TimeInStatus.mat-column-TimeInStatus.blueRowCol.ng-star-inserted > span {
+        position: absolute;
+        right: 215px;
+        margin-top: -15px;
+    }
+    div#wallboardwrapper tr > td.mat-cell.cdk-cell.cdk-column-StatusDetails.mat-column-StatusDetails.blueRowCol.ng-star-inserted > span {
+        position: absolute;
+        text-align: center;
+        right: 450px;
+        margin-top: -15px;
+    }
+    div#wallboardwrapper tr > td.mat-cell.cdk-cell.cdk-column-ProfileName.mat-column-ProfileName.blueRowCol.ng-star-inserted > span {
+        position: absolute;
+        text-align: center;
+        right: 645px;
+        margin-top: -15px;
+        box-sizing: none !important;
+    }
+
+    .widget[_ngcontent-pgd-c87] {
+        background: rgba(31, 13, 13, 0) !important;
+        border: none !important;
+        height: 200px !important;
+        box-sizing: none !important;
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 300px;
+        margin-top: -250px !important;
+        width: 60%;
+        height: 275px;
+    }
+.iframediv {
+    position: absolute;
+    width: 61%;
+    height: 310px;
+    margin-left: -230px;
+    overflow: hidden;
+    top: 335px;
+    border: none;
+}
+iframe {
+    overflow: hidden;
+    margin-top: -65px;
+    width: 100%;
+    height: 355px;
+    
+}
